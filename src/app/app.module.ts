@@ -6,6 +6,7 @@ import { CarDescriptionComponent } from './car-description/car-description.compo
 import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
 import { MouseCoordinateComponent } from './mouse-coordinate/mouse-coordinate.component';
 import { EurToDollar1Component } from './eur-to-dollar1/eur-to-dollar1.component';
+import { EurToDollar2Component } from './eur-to-dollar2/eur-to-dollar2.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { EurToDollar1Component } from './eur-to-dollar1/eur-to-dollar1.component
     CarDescriptionComponent,
     SimpleCounterComponent,
     MouseCoordinateComponent,
-    EurToDollar1Component
+    EurToDollar1Component,
+    EurToDollar2Component
   ],
   imports: [
     BrowserModule
