@@ -1,3 +1,11 @@
-<p>
-  eur-to-dollar1 works!
-</p>
+<h1>Convertitore Euro/Dollaro</h1>
+    <label for="amount">Somma in Euro da convertire</label>
+    <div>
+      <input id="amount" 
+        size="20" 
+        [value]="eur" 
+        (input)="onInput($event)" />
+      <span style="margin-left: 10px;">
+        {{ eur | currency: "EUR" }} = {{ usd | currency: "USD" }}
+      </span>
+    </div>
