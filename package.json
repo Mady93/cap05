@@ -2,11 +2,7 @@
   "name": "car",
   "version": "0.0.0",
   "scripts": {
-    "startCap05": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "startCap05": "ng serve"
   },
   "private": true,
   "dependencies": {
