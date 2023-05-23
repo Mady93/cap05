@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EurToDollar2Component implements OnInit {
 
+  eur:number=0;
+  usd:number=0;
+  conversionRate:number=1.08;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  update(event:number){
+    this.eur = +event | 0;
+    this.usd = this.eur * this.conversionRate;
   }
 
 }

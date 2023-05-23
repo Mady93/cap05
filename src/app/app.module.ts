@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CarDescriptionComponent } from './car-description/car-description.component';
@@ -19,7 +20,8 @@ import { EurToDollar2Component } from './eur-to-dollar2/eur-to-dollar2.component
     EurToDollar2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
