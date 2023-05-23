@@ -20,4 +20,10 @@ export class EurToDollar1Component implements OnInit {
     this.eur = +parseFloat(event.target.value) |0;
     this.usd = this.eur * this.conversionRate;
   }
+
+ /* onInput(event: InputEvent) {
+    this.eur = +event.data;
+    this.usd = +event.data * this.conversionRate;
+  }*/
+
 }
