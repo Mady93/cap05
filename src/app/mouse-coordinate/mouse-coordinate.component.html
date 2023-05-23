@@ -1,3 +1,6 @@
-<p>
-  mouse-coordinate works!
-</p>
+<div class="container">
+  <div class="box" (mousemove)="onMouseMove($event)"></div>
+<span>X: {{mouseX}}</span>
+<br>
+<span>Y: {{mouseY}}</span>
+</div>
